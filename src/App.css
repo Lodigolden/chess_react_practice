@@ -1,0 +1,66 @@
+/* Board background color: */
+body {
+  display: flex; 
+  flex-direction: center; 
+  align-items: center; 
+}
+
+h1 {
+  text-align: center; 
+}
+
+/* Chess board object */
+.board {
+  display: grid; 
+  grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px; 
+  grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px;
+  cursor: pointer; 
+  position: relative; 
+}
+
+/* Tile object */
+.tile {
+  font-size: 2em; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;  
+}
+
+/* Tile colors */
+.white_tile {
+  background-color: white; 
+}
+
+.tan_tile {
+  background-color: #dabc94; 
+}
+
+.black_tile {
+  background-color: black; 
+} 
+
+.brown_tile {
+  background-color: #654321; 
+}
+
+/* Dark mode button */
+.dark-mode-button {
+  position: fixed; 
+  top: 10px; 
+  left: 900px; 
+  width: 8%; 
+  padding: 10px; 
+  background-color: #a74f08; 
+  color: rgb(10, 10, 10); 
+  font-size: 1.5em; 
+}
+
+.tan_button {
+  background-color: #dabc94; 
+  color: black; 
+}
+
+.blue_button {
+  background-color: #0074a6; 
+  color: white; 
+}
